@@ -30,14 +30,14 @@ export const Footer = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            Made with{" "}
+            Made by{" "}
             <motion.span
+              className="text-red-500 font-semibold"
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ duration: 1, repeat: Infinity }}
             >
-              <Heart className="w-4 h-4 text-destructive fill-destructive" />
+              Bijoy
             </motion.span>{" "}
-            in Dhaka, Bangladesh
           </motion.p>
 
           {/* Scroll to Top */}
